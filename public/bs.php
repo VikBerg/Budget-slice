@@ -30,7 +30,7 @@
             <div id="herotext">
                 <h3> Planera dina veckomåltider baserat på din budget och dina preferenser</h3>
             </div>
-            <p><a href="#form"><button name="start-now" class="button" type="submit" id="start-submit">Börja nu </button></a></p>
+            <p><a href="#form" class="button" id="start-submit">Börja nu</a></p>
         </div>
 
         <!--CONTENT-->
@@ -38,8 +38,8 @@
             <div id="box1">
                 <h4>Välkommen till Budget SLICE!</h4>
                 <p>Kämpar du med idéer om vad du ska laga varje dag för att vara inom dedikerad månadssumma pengar? Oroa dig inte, vi är här för att hjälpa dig.</p>
-                <p>Bara i några steg får du en veckomeny med 2 (lunch och middag) eller 3 måltider per dag (frukost, lunch och middag) och en inköpslista! Du kan vara säker på att din månadsbudget kommer att ligga inom en plan.</p>
-                <p>Du kan välja mellan vanliga, barnvänliga och vegetariska alternativ. </p>
+                <p>Bara i några steg får du en veckomeny med 1 eller 2 (lunch och middag) alternativ. Du kan vara säker på att din månadsbudget kommer att ligga inom en plan.</p>
+                <p>Du kan välja mellan vanliga och vegetariska alternativ. </p>
                 <p>På den här sidan hittar du recept, tips och annan användbar information som underlättar din budget och måltidsplanering.</p>
             </div>
             <div id="box2">
@@ -50,30 +50,30 @@
         <!--FORM-->
         <div id="form" class="part flex-container-column">
             <div id="section-heading">
-                <h3>Så börjar vi!</h3>
+                <h3>Nu börjar vi!</h3>
                 <p>Det är enkelt, fyll bara i formuläret och klicka på knappen "Skapa en meny".</p><br>
             </div>
-            <form action="/Budget slice/public/menu.php" method=POST>
+            <form action="/Budget%20slice/public/menu.php" method=POST>
                 <label for="meals">Välj antal måltider per dag:</label>
-                <select name="meals">
-                    <option value=" " selected disabled></option>  
-                    <option value="1">1</option>  
-                    <option value="2">2</option>
+                <select name="meals" id="meals">
+                    <option value=" " selected disabled label=" "></option>  
+                    <option value="1" label="1">1</option>  
+                    <option value="2" label="2">2</option>
                 </select><br>
                 <label for="budget">Välj budget (kr):</label>
-                <select name="budget">
-                    <option value=" " selected disabled></option>
-                    <option value="100">100</option>
-                    <option value="250">250</option>
-                    <option value="500">500</option>
-                    <option value="750">750</option>
-                    <option value="1000">1000</option>
+                <select name="budget" id="budget">
+                    <option value=" " selected disabled label=" "></option>
+                    <option value="100" label="100">100</option>
+                    <option value="250" label="250">250</option>
+                    <option value="500" label="500">500</option>
+                    <option value="750" label="750">750</option>
+                    <option value="1000" label="1000">1000</option>
                 </select><br>
                 <label for="preference">Välj måltidspreferens:</label>
-                <select name="preference">
-                    <option value=" " selected disabled></option>
-                    <option value="Vanliga">Vanliga</option>
-                    <option value="Vegetarisk">Vegetarisk</option><br>
+                <select name="preference" id="preference">
+                    <option value=" " selected disabled label=" "></option>
+                    <option value="Vanliga" label="Vanliga">Vanliga</option>
+                    <option value="Vegetarisk" label="Vegetarisk">Vegetarisk</option>
                 </select>
                 <br><button class="button" type="submit" id=menubutton >Skapa en meny</button>
             </form>

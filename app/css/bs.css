@@ -208,7 +208,6 @@ h4 {
 
 #menubutton {
     margin-top: 20px;
-    margin-left: 75px;
 }
 
 
@@ -507,8 +506,9 @@ padding: 20px;
 
 
 #search-text {
-    margin:20px;  
+    margin: 20px;  
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 

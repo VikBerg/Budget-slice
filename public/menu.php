@@ -61,7 +61,8 @@
     </div>
     </div>
     <div id="copyright" class="flex-container-row">
-    <p> &copy <?php echo date ('Y'); ?> Budget slice</p>
+    <p> &copy; <?php echo date ('Y'); ?> Budget slice</p>
+    </div>
     </div>
 </body>
 </html>

@@ -8,7 +8,7 @@ function myFunction3() {
   }
 }
 
-//Prevent reposting of forms
+//Prevent reposting of forms:
     if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );
     }

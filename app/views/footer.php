@@ -36,7 +36,7 @@
 ?>
 <?php endif ?>
 
-<div id="footer"class="part flex-container-row">
+<div id="footer" class="part flex-container-row">
     <div class="contact">
         <h3>Kontakta oss</h3>
         <p>Kontakta oss gärna om du har några frågor, önskemål eller vill dela med dig av din feedback. Vi vill gärna höra från dig!</p>
@@ -51,7 +51,7 @@
             <div class="row">
                 <p><input type="text" id="fname" name="firstname" placeholder="Ditt namn" required></p>
                 <p><input type="email" id="email" name="email" placeholder="Din e-postadress" required></p>
-                <p><textarea id="subject" name="subject" placeholder="Skriv något.."required></textarea></p>
+                <p><textarea id="subject" name="subject" placeholder="Skriv något.." required></textarea></p>
                 <p><button name="send-button" class="button" type="submit" id="contact-submit">Skicka</button></p>
             </div>
         </form>
@@ -59,5 +59,5 @@
 </div>
 
 <div id="copyright" class="flex-container-row">
-    <p> &copy <?php echo date ('Y'); ?> Budget slice</p>
+    <p> &copy; <?php echo date ('Y'); ?> Budget slice</p>
 </div>

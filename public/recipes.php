@@ -34,7 +34,7 @@
         <div id="recepies" class="part flex-container-column">
             <div id="recepiestext">
                 <h3> Recept</h3>
-                <form action="/Budget slice/public/recipes.php" method="POST" class="flex-container-row">
+                <form action="/Budget%20slice/public/recipes.php" method="POST" class="flex-container-row">
                     <input type="text" id="search-text" placeholder="Söka.." name="search">
                     <button class="button" type="submit" id=menubutton ><i class="bi bi-search"></i></button>
                     <!--a class="button" id="search-button" type="submit"><i class="bi bi-search"></i></a-->
@@ -48,7 +48,7 @@
         ?>
 
         <div id="copyright" class="flex-container-row">
-            <p> &copy <?php echo date ('Y'); ?> Budget slice</p>
+            <p> &copy; <?php echo date ('Y'); ?> Budget slice</p>
         </div>
     </div>      
 </body>

@@ -32,7 +32,7 @@
     <div id="newsletter" class="part flex-container-column">
         <h3> Prenumerera på vårt nyhetsbrev</h3>
         <div id="subscription" class="flex-container-row">
-            <input type="text" id="nemail" name="nemail" placeholder="Ange din e-postadress"required>
+            <input type="text" id="nemail" name="nemail" placeholder="Ange din e-postadress" required>
             <p><button name="subscription-button" class="button" type="submit" >Prenumerera</button></p>
         </div>
     </div>
